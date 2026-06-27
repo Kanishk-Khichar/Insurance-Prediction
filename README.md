@@ -59,11 +59,53 @@ The model finds the relationship between input features and insurance cost.
 
 ## 📈 Model Evaluation
 
-The model performance is measured using:
-
-- R² Score
-
 Example:
 
 ```python
 model.score(X_test, y_test)
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-link>
+```
+
+### 2. Navigate to project folder
+
+```bash
+cd Insurance-Cost-Prediction
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open the file:
+
+```text
+project_insurance.ipynb
+```
+
+and run all cells.
+
+---
+
+## 📌 Results
+
+The trained Machine Learning model predicts medical insurance charges based on customer information.
+
+## 👨‍💻 Author
+
+Kanishk Khichar
+
+⭐ If you like this project, give it a star.
