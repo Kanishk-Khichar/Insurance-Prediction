@@ -1,0 +1,79 @@
+📌 Project Overview
+
+This project predicts medical insurance charges based on user information such as age, gender, BMI, number of children, smoking status, and other factors.
+
+A Machine Learning model is trained using Linear Regression to estimate insurance costs.
+
+🚀 Features
+Data loading and preprocessing
+Exploratory data analysis
+Feature selection
+Train-test data splitting
+Linear Regression model training
+Model evaluation using R² score
+Insurance charge prediction
+🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook
+📂 Dataset
+
+The dataset contains information about insurance customers:
+
+Feature	Description
+age	Age of the customer
+sex	Gender of customer
+bmi	Body Mass Index
+children	Number of children
+smoker	Smoking status
+charges	Medical insurance cost
+⚙️ Machine Learning Workflow
+Import required libraries
+Load the insurance dataset
+Analyze and preprocess the data
+Split data into training and testing sets
+Train Linear Regression model
+Predict insurance charges
+Evaluate model performance
+📊 Model
+
+Algorithm used:
+
+Linear Regression
+
+The model learns the relationship between customer attributes and insurance charges.
+
+📈 Model Evaluation
+
+The model is evaluated using:
+
+R² Score (Coefficient of Determination)
+
+Example:
+
+model.score(X_test, y_test)
+▶️ How to Run
+Clone the repository:
+git clone <repository-url>
+Install dependencies:
+pip install pandas numpy matplotlib seaborn scikit-learn
+Open the notebook:
+jupyter notebook project_insurance.ipynb
+Run all cells.
+📁 Project Structure
+Insurance-Prediction/
+│
+├── project_insurance.ipynb
+├── insurance.csv
+└── README.md
+👨‍💻 Author
+
+Kanishk
+
+📜 License
+
+This project is for learning and educational purposes.
