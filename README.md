@@ -63,6 +63,7 @@ Example:
 
 ```python
 model.score(X_test, y_test)
+```
 
 ## ▶️ How to Run
 
